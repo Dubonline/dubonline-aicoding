@@ -95,7 +95,7 @@ def backend_logs(limit: int = 200, date: str | None = None) -> dict[str, Any]:
 
     前端可以轮询这个接口展示服务运行状态；
     可在浏览器中直接查看请求和错误日志。
-    date 参数用于读取历史日志，例如 2026-02-22。
+    date 参数用于读取历史日志，例如 2026-06-22。
     """
 
     parsed_date = _parse_log_date(date)

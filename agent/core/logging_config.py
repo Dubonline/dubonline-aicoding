@@ -66,7 +66,7 @@ def _make_timed_file_handler(path: Path) -> TimedRotatingFileHandler:
     """创建按时间轮转并限制保留数量的文件 handler。
 
     当前写入固定文件名，例如 backend.log；到轮转点后，标准库会生成
-    backend.log.2026-02-10 这样的历史文件，并按 backupCount 自动清理。
+    backend.log.2026-06-10 这样的历史文件，并按 backupCount 自动清理。
     delay=True 可以避免进程启动时立即打开文件，只有第一条日志到来时才创建。
     """
 

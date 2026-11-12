@@ -57,7 +57,7 @@ Windows 可使用 `scripts\start_backend.cmd`、`scripts\start_ui.cmd`，或 `.v
 
 ## 开发资料
 
-设计记录统一归档为 2026年2月。
+设计记录统一归档为 2026年6月。
 
 - [架构说明](docs/ARCHITECTURE.md)
 - [后续扩展接口（未接入）](docs/EXTENSION_POINTS.md)

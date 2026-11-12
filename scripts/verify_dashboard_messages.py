@@ -28,8 +28,8 @@ def _todo_statuses(thread: dict) -> list[str]:
 def main() -> None:
     thread = {
         "thread_id": "dashboard-message-test",
-        "created_at": "2026-02-01T00:00:00+00:00",
-        "updated_at": "2026-02-01T00:00:10+00:00",
+        "created_at": "2026-06-01T00:00:00+00:00",
+        "updated_at": "2026-06-01T00:00:10+00:00",
         "title": "先帮我解析目录结构",
         "user_prompt": "第二个问题",
         "repo_url": "https://gitee.com/example-owner/ai_coding",
@@ -41,25 +41,25 @@ def main() -> None:
                 "message_id": "u1",
                 "author": "user",
                 "content": "先帮我解析目录结构",
-                "created_at": "2026-02-01T00:00:00+00:00",
+                "created_at": "2026-06-01T00:00:00+00:00",
             },
             {
                 "message_id": "a1",
                 "author": "agent",
                 "content": "目录结构分析结果",
-                "created_at": "2026-02-01T00:00:01+00:00",
+                "created_at": "2026-06-01T00:00:01+00:00",
             },
             {
                 "message_id": "u2",
                 "author": "user",
                 "content": "再给我一个方案",
-                "created_at": "2026-02-01T00:00:02+00:00",
+                "created_at": "2026-06-01T00:00:02+00:00",
             },
             {
                 "message_id": "a2",
                 "author": "agent",
                 "content": "方案正文",
-                "created_at": "2026-02-01T00:00:03+00:00",
+                "created_at": "2026-06-01T00:00:03+00:00",
             },
         ],
     }
@@ -108,7 +108,7 @@ def main() -> None:
         **thread,
         "thread_id": "dashboard-streaming-test",
         "latest_run_status": "running",
-        "messages": [{"message_id": "u1", "author": "user", "content": "生成方案", "created_at": "2026-02-01T00:00:00+00:00"}],
+        "messages": [{"message_id": "u1", "author": "user", "content": "生成方案", "created_at": "2026-06-01T00:00:00+00:00"}],
         "run_events": [
             {
                 "id": "dashboard-streaming-test:stream:message",
@@ -147,7 +147,7 @@ def main() -> None:
         **thread,
         "thread_id": "dashboard-mixed-stream-test",
         "latest_run_status": "running",
-        "messages": [{"message_id": "u1", "author": "user", "content": "生成方案", "created_at": "2026-02-01T00:00:00+00:00"}],
+        "messages": [{"message_id": "u1", "author": "user", "content": "生成方案", "created_at": "2026-06-01T00:00:00+00:00"}],
         "run_events": [
             {
                 "id": "dashboard-mixed-stream-test:stream:message",
@@ -185,8 +185,8 @@ def main() -> None:
         **running_thread,
         "latest_run_status": "awaiting_approval",
         "messages": [
-            {"message_id": "u1", "author": "user", "content": "生成方案", "created_at": "2026-02-01T00:00:00+00:00"},
-            {"message_id": "a1", "author": "agent", "content": "最终技术方案", "created_at": "2026-02-01T00:00:01+00:00"},
+            {"message_id": "u1", "author": "user", "content": "生成方案", "created_at": "2026-06-01T00:00:00+00:00"},
+            {"message_id": "a1", "author": "agent", "content": "最终技术方案", "created_at": "2026-06-01T00:00:01+00:00"},
         ],
         "run_events": [],
     }

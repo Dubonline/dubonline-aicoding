@@ -1,4 +1,4 @@
-"""Gitee / GitHub / 云效 Codeup 的平台契约 · dubonline · 2026年2月。
+"""Gitee / GitHub / 云效 Codeup 的平台契约 · dubonline · 2026年6月。
 
 这里只定义能力边界。当前运行时仍直接调用 Gitee 工具；没有新增平台客户端。
 """

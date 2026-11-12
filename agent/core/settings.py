@@ -32,7 +32,7 @@ def log_date_text(target_date: date | None = None) -> str:
     """返回历史日志文件使用的日期文本。
 
     TimedRotatingFileHandler 当前写入固定文件名，例如 backend.log；
-    历史文件默认追加 YYYY-MM-DD 后缀，例如 backend.log.2026-02-10。
+    历史文件默认追加 YYYY-MM-DD 后缀，例如 backend.log.2026-06-10。
     这个函数保留给日志 API 读取历史日期时使用。
     """
 

@@ -1,4 +1,4 @@
-"""本地与远程执行后端的生命周期契约 · dubonline · 2026年2月。"""
+"""本地与远程执行后端的生命周期契约 · dubonline · 2026年6月。"""
 from __future__ import annotations
 
 from dataclasses import dataclass
