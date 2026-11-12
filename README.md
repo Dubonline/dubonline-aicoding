@@ -6,6 +6,12 @@
 
 后端使用 Python、FastAPI、Deep Agents 和 LangGraph，前端使用 React、TypeScript 和 TanStack Start。任务状态和业务数据分别保存到本地 SQLite，界面通过 SSE 接收运行事件。
 
+## 界面预览
+
+![dubonline AI Coding 界面效果图](docs/images/interface-preview.png)
+
+*界面设计效果图，用于展示交互布局。*
+
 ## 环境与配置
 
 - Python 3.14 或更高版本，使用 uv 安装依赖：`uv sync`。
